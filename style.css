@@ -1,0 +1,175 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.row {
+  width: 400px;
+  height: 133px;
+  display: flex;
+}
+
+.cell {
+  width: 133px;
+  height: 133px;
+  border: 1px solid #000;
+  font-size: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#score {
+  width: 600px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#playerTurn {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#computerTurn {
+  width: 200px;
+  height: 200px;
+  float: right;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#playerScore {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#computerScore {
+  width: 200px;
+  height: 200px;
+  float: right;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#tieScore {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#playerTurnText {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#computerTurnText {
+  width: 200px;
+
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#playerScoreText {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+#computerScoreText {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#tieScoreText {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#playerWin {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#computerWin {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#tieGame {
+  width: 200px;
+  height: 100px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#reset {
+  width: 200px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
